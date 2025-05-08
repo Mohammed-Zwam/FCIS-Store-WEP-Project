@@ -111,6 +111,7 @@ REQUISTS
 - Create Branch In Github Repo For Push Your Tasks
 - Use Structure OF TEMPLATE (FOR CODE QUALITY REQ.)
 - Send Username OF Github Profile
+- Install Dependencies When Clone The Local REPO
 
 ___________________________________________________________________________________________________________________________________________________________________
 

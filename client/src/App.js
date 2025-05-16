@@ -16,6 +16,7 @@ import Home from './pages/Home.js';
 import AdminDashboard from './pages/AdminDashboard';
 import ProductsProvider from './context/ProductsProvider.js';
 import Favorites from './pages/Favorites.js';
+import Services from './pages/Services';
 
 // Layout component that includes Header and Footer
 const Layout = () => {
@@ -48,6 +49,7 @@ function App() {
                         <Route path="/payment" element={<Payment />} />
                         <Route path="/cart" element={<Cart />} />
                         <Route path="/buy" element={<BuyNow />} />
+                        <Route path="/services" element={<Services />} />
                     </Route>
                 </Routes>
             </ProductsProvider>

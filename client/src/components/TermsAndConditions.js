@@ -44,7 +44,7 @@ function TermsAndConditions() {
             <p>Customers may return products within 14 days of delivery, subject to our return policy. Refunds are issued once the product is inspected and approved.</p>
 
             <p style={sectionTitleStyle}>6. Warranty</p>
-            <p>Most laptops come with a manufacturer’s warranty. We do not provide separate warranties unless explicitly stated. Please refer to the product details for warranty information.</p>
+            <p>Most laptops come with a manufacturerï¿½s warranty. We do not provide separate warranties unless explicitly stated. Please refer to the product details for warranty information.</p>
 
             <p style={sectionTitleStyle}>7. User Conduct</p>
             <p>You agree not to use the website for any unlawful purpose or to solicit others to perform illegal acts. Abuse, fraud, or violations may result in termination of your account.</p>

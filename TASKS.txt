@@ -1,0 +1,135 @@
+[Abdelrahman]
+- Common Components
+--> Header (Handle Routing)
+--> Footer (Handle Routing)
+- Contact us (Form Handling (constrains)
+
+==> NOTES & Changes
+- Responsive of header
+- Product & Shop ?
+
+
+
+==> TASKS
+- Searh Functionality (After Set Products) | Show Popup That Contain The Products related by Search input (When Exist, Make The Products Is Clickable & Route To Details Of This Product)
+	** IF NO SHARE Yehya For His Task
+- Create END POINT (API) FOR Contact Form Handling Send Email To Email Of Admin (Initially Your Email)
+- Create Simple Page For Services 
+
+=============================================================================================================================
+[Ashraf]
+- Home 
+--> Landing
+--> Product (With simple filter)
+------> Product Details
+
+
+==> NOTES & Changes
+- Edit On Product List (Gammel Task)
+
+
+
+==> TASKS
+- Create END POINT (API) For Login & Password (JWT, Encrypt Password, Middleware, Authorization & Token & Privileges Of Admin, UPDATE DB)
+- Create END POINT (API) For ADMIN (ADD, UPDATE, DELETE) Product & Keep Track Change Of This In DB 
+- Create Product Page Details & Option For Buy Now & Routing
+USERS
+{
+	email,
+	username,
+	password,
+	DOB,
+	Country,
+	Favourites[{Product ID}],
+	Cart[{Product ID}],
+}
+Admin
+{
+	username,
+	password
+}
+Products
+{
+	ProductName,
+	ProductImg,
+	Price,
+	NumOfProduct
+}
+
+ANOTHER DBs ?
+=============================================================================================================================
+[Gammel]
+- Cart (Details & buy now) (update, delete Products)
+
+
+==> NOTES & Changes
+- Reducer & Replace With End points OR NO?
+
+
+==> TASKS
+- Create END POINT (API) For Add Product to the Cart of This User In Database
+=============================================================================================================================
+[Ahmed Alaa]
+- Payment (select payment method, Form Handling (constrains)
+
+==> NOTES & Changes
+- Merge Buy Now (Task of Gammel with Payment)
+
+
+==> TASKS
+- Create END POINT (API) For Payment (Number of This Product Change)
+- Create Simple Dashboard For Admin (Add, Delete, Update Product) FRONT-END ONLY
+=============================================================================================================================
+[Yehya]
+- Profile   
+- Login & Register
+
+
+==> NOTES & Changes
+- Remove (Order History & Wishlist)
+
+==> TASKS
+- Create END POINT (API) For Edit Profile (Change The Info Of User In DB)
+- Create Favorites Page 
+	--> Add Heart Icon For Every Product To add To Favorit List For User & If the user add this product change the product icon & add To Favorite Page 
+	--> In Favorite Page Clear Favorites Or Specific Product
+	--> Add In Favorites Option Buy Now And Direct to Payment Page
+	* Handle Add Or Delete Or Update Favorites List For USER BY END POINTS (APIs)
+
+
+
+
+
+
+
+___________________________________________________________________________________________________________________________________________________________________
+
+REQUISTS
+========
+- Create Branch In Github Repo For Push Your Tasks
+- Use Structure OF TEMPLATE (FOR CODE QUALITY REQ.)
+- Send Username OF Github Profile
+- Install Dependencies When Clone The Local REPO
+
+___________________________________________________________________________________________________________________________________________________________________
+
+NEXT STEP
+=========
+
+[YEHYA & ABDELRAHMAN]
+-> Business Need DOC
+
+[GAMMEL & AHMED ALAA]
+-> API DOC
+
+[ASHRAF]
+-> DB DOC & SCHEMA
+-> README & Requirements Documentation 
+
+
+DEPLOYMENT
+
+
+
+
+
